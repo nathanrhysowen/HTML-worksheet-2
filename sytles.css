@@ -52,38 +52,85 @@ li{
 }
 /* Cake page */
 
-.cake-text {
+.cake-text{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     color: white;
-    font-size: 25px;
+    font-size:25px;
     font-weight:bold;
+
 }
 
 .section-one {
-    border: 1px solid white; 
+    border: 1px solid white;
     background-color: darkslateblue;
-}
 
-.caption {
+}
+.caption{
     font-size: 15px;
     font-style: italic;
-    text-align: center; 
+    text-align: center;
+
 }
 
-.container {
+.container{
     display: flex;
     justify-content: space-evenly;
-    /*flex-wrap: wrap; */
+    flex-wrap: wrap;
+
 
 }
-.cake-item {
+
+.cake-item{
+    
     width: 275px;
     height: 275px;
     padding: 4px;
+}
 
-}
 .cake-group{
-    border: 2px solid black;
-    width: 275;
+    border: 2px solid green;
+    width: 275px;
 }
+
+section { 
+    padding: 8px 0px 0px 0px;
+}  
+
+
+ .section-two {
+    padding: 6px 2px 2px 8px;
+    background-color: deepskyblue;
+}  
+
+
+
+  .cake-poster-item {
+     
+    display: flex; 
+    flex-wrap: wrap;
+    width: 40%;   
+    padding: 10px; 
+ } 
+
+ 
+  .dark {
+    color: #333333;
+}  
+
+ 
+ .center {
+    text-align: center;
+}  
+
+
+.footer {
+    
+    background-color: white;
+    
+}  
+
+.disclaimer {   
+    padding: 5px;
+    text-align: center;
+}  
